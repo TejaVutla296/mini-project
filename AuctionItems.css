@@ -1,0 +1,179 @@
+body {
+    background-color: #8d99ae;
+}
+
+.auction-items-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+
+}
+
+
+.profile-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #1b263b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-panel {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: #778da9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+}
+
+.profile-panel li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.profile-panel li:hover {
+    background-color: #415a77;
+    text-decoration: underline;
+}
+
+.add-item-form {
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    width: 20%;
+    background-color:#415a77;
+    color: #1b263b;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-item-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.add-item-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1b263b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-item-form button:hover {
+    background-color:#778da9;
+    color: #1b263b;
+    font-weight: bold;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    max-width: 250px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin-top: 0;
+}
+
+.item button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1b263b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #415a77;
+}
+
+.item button.add-10-percent {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1b263b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.item button.add-10-percent:hover {
+    background-color: #415a77;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.categories button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1b263b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    background-color: #415a77;
+}
+
+.portfolio-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .portfolio-link a {
+    padding: 10px 20px;
+    background-color: #1b263b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .portfolio-link a:hover {
+    background-color: #415a77;
+  }
+  
